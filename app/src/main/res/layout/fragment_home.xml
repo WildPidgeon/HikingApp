@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mountain"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:text="Witamy w przewodniku po szlakach turystycznych!\n Tutaj znajdziesz szlaki górskie wraz z ich etapami oraz zmierzysz swój czas przejścia"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</LinearLayout>

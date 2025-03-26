@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.TrailGuide" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:toolbarStyle">@style/CustomToolbar</item>
+    </style>
+
+    <style name="CustomToolbar" parent="Widget.Material3.Toolbar">
+        <item name="backgroundTint">@color/colorPrimary</item>
+    </style>
+</resources>
